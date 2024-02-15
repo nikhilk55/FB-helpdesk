@@ -1,0 +1,113 @@
+/*Css Code for web page*/
+body, h2, form, input, button, label, p ,span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Registration and Login Page */
+.login-link, .signup-link {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 11px;
+}
+
+.login-link a, .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link a:hover, .signup-link a:hover {
+    text-decoration: underline;
+}
+
+/* Post-Login Page */
+p {
+    font-size: 18px; 
+    margin-bottom: 20px;
+}
+
+#integrated-page-name {
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+/* Delete Integration button styles */
+.delete-button {
+    background-color: #ff0000; /* Red color */
+    color: #fff;
+}
+
+.delete-button:hover {
+    background-color: #cc0000; /* Darker red color on hover */
+}
+
+/* Reply to Messages button styles */
+.reply-button {
+    background-color: #007bff; /* Blue color */
+    color: #fff;
+}
+
+.reply-button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
